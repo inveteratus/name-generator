@@ -1,0 +1,24 @@
+{
+    "name": "node83/name-generator",
+    "description": "Docker-like name generator",
+
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Alan",
+            "email": "alan.mcfarlane@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "NameGenerator\\": "src/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
